@@ -1,0 +1,13 @@
+{
+  "name": "download-error-webhook-worker",
+  "description": "Run a script on AFTER_DOWNLOAD_ERROR",
+  "version": "1.0.0",
+  "scripts": {
+    "deploy": "jf worker deploy",
+    "undeploy": "jf worker rm \"download-error-webhook-worker\""
+  },
+  "license": "ISC",
+  "devDependencies": {
+    "jfrog-workers": "^0.6.0"
+  }
+}

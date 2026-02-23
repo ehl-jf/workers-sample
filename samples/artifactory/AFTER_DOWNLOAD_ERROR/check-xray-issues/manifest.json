@@ -1,0 +1,16 @@
+{
+    "name": "download-error-webhook-worker",
+    "description": "Run a script on AFTER_DOWNLOAD_ERROR",
+    "filterCriteria": {
+        "artifactFilterCriteria": {
+            "repoKeys": ["example-repo-local"]
+        }
+    },
+    "secrets": {},
+    "sourceCodePath": "./worker.ts",
+    "action": "AFTER_DOWNLOAD_ERROR",
+    "enabled": false,
+    "debug": false,
+    "projectKey": "",
+    "application": "artifactory"
+}
